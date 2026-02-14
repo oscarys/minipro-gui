@@ -2,6 +2,8 @@
 
 A modern PyQt6 frontend for the `minipro` command-line tool, providing an intuitive graphical interface for programming chips with the T48 device programmer.
 
+> **Important:** This is a GUI frontend for [minipro](https://gitlab.com/DavidGriffith/minipro), the open-source programmer software. You must have minipro installed for this GUI to work. Visit the [minipro GitLab repository](https://gitlab.com/DavidGriffith/minipro) for installation instructions.
+
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.0%2B-green)
 ![License](https://img.shields.io/badge/license-GPLv3-orange)
@@ -38,6 +40,22 @@ A modern PyQt6 frontend for the `minipro` command-line tool, providing an intuit
 - **Cleaner Layout**: Reduced clutter, improved workflow
 - **Color-Coded Console**: Cyan commands, green success, red errors, purple debug
 - **Auto-Hide Progress**: Progress bar disappears after completion
+
+## 📸 Screenshots
+
+### Main Interface
+![Main Window - Device Info Tab](screenshots/main-window.png)
+*Device selection with searchable dropdown and programmer detection*
+
+### Real-Time Progress
+![Progress Bar in Action](screenshots/progress-bar.png)
+*Live progress updates with debug mode showing parsing details*
+
+### Searchable Device Dropdown
+![Device Dropdown with Filtering](screenshots/device-dropdown.png)
+*Type to filter through 13,000+ supported devices instantly*
+
+> **Note:** Screenshots show placeholder images. Replace with actual application screenshots by following the instructions in `screenshots/README.md`.
 
 ## Core Features
 
@@ -462,6 +480,44 @@ Contributions welcome! Areas for improvement:
 - **Xgecu Website**: http://www.xgecu.com/en/
 - **minipro Documentation**: Check man page with `man minipro`
 - **Firmware Updates**: https://github.com/Kreeblah/XGecu_Software
+
+## Related Projects
+
+### minipro - The Core Tool
+This GUI is a frontend for [minipro](https://gitlab.com/DavidGriffith/minipro/), an open-source command-line tool for controlling Xgecu chip programmers. 
+
+**minipro features:**
+- Support for 13,000+ devices (EEPROM, EPROM, Flash, MCUs, GAL/PAL, etc.)
+- Compatible with TL866A/CS, TL866II+, T48, T56, and T76 programmers
+- Multiple file formats (binary, Intel HEX, Motorola S-Record)
+- Active development and community support
+
+**Credits:**
+- Created by Valentin Dudouyt (2014)
+- Maintained by David Griffith and contributors
+- Licensed under GPLv3
+
+**Installation:**
+```bash
+# Debian/Ubuntu
+sudo apt-get install minipro
+
+# From source
+git clone https://gitlab.com/DavidGriffith/minipro.git
+cd minipro
+make
+sudo make install
+```
+
+### Why This GUI?
+While minipro is powerful, command-line usage can be challenging for:
+- Users who prefer graphical interfaces
+- Repetitive operations (no need to retype commands)
+- Visual feedback (real-time progress bars)
+- Device discovery (searchable dropdown of 13,000+ devices)
+- Settings management (remembers your preferences)
+
+This GUI makes minipro's power accessible to everyone while maintaining all the flexibility of the command-line tool.
 
 ## License
 

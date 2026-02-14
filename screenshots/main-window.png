@@ -1,0 +1,59 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#2d2d2d"/>
+  
+  <!-- Window frame -->
+  <rect x="10" y="10" width="1180" height="780" fill="#353535" rx="5"/>
+  
+  <!-- Title bar -->
+  <rect x="10" y="10" width="1180" height="40" fill="#454545" rx="5"/>
+  <text x="30" y="35" font-family="Arial" font-size="18" fill="#ffffff">T48 MiniPro Device Programmer</text>
+  
+  <!-- Tab bar -->
+  <rect x="20" y="60" width="150" height="35" fill="#2196F3" rx="3"/>
+  <text x="50" y="82" font-family="Arial" font-size="14" fill="#ffffff">Device Info</text>
+  
+  <rect x="180" y="60" width="150" height="35" fill="#555555" rx="3"/>
+  <text x="202" y="82" font-family="Arial" font-size="14" fill="#aaaaaa">Read/Write</text>
+  
+  <rect x="340" y="60" width="150" height="35" fill="#555555" rx="3"/>
+  <text x="370" y="82" font-family="Arial" font-size="14" fill="#aaaaaa">Firmware</text>
+  
+  <!-- Content area -->
+  <rect x="20" y="105" width="1160" height="480" fill="#2d2d2d" rx="3"/>
+  
+  <!-- Programmer info box -->
+  <rect x="40" y="125" width="1120" height="100" fill="#404040" rx="3"/>
+  <text x="60" y="150" font-family="Arial" font-size="16" fill="#4fc3f7" font-weight="bold">Programmer Information</text>
+  <text x="60" y="180" font-family="Arial" font-size="14" fill="#aaaaaa">Detect Programmer | Query Supported | Hardware Check</text>
+  
+  <!-- Device selection box -->
+  <rect x="40" y="240" width="1120" height="130" fill="#404040" rx="3"/>
+  <text x="60" y="265" font-family="Arial" font-size="16" fill="#4fc3f7" font-weight="bold">Device Selection</text>
+  <text x="60" y="295" font-family="Arial" font-size="14" fill="#64b5f6">💡 Common devices pre-loaded. Type to search or click 'Load Device List'</text>
+  <text x="60" y="325" font-family="Arial" font-size="14" fill="#aaaaaa">Select Device: [AT29C256@DIP28 ▼] [Load Device List]</text>
+  
+  <!-- Chip operations box -->
+  <rect x="40" y="385" width="1120" height="80" fill="#404040" rx="3"/>
+  <text x="60" y="410" font-family="Arial" font-size="16" fill="#4fc3f7" font-weight="bold">Chip Operations</text>
+  <text x="60" y="440" font-family="Arial" font-size="14" fill="#aaaaaa">[Read Chip ID] [Pin Contact Check] [Blank Check]</text>
+  
+  <!-- Console area -->
+  <rect x="20" y="595" width="1160" height="185" fill="#1e1e1e" rx="3"/>
+  <text x="40" y="620" font-family="Arial" font-size="14" fill="#4caf50" font-weight="bold">Console Output</text>
+  <text x="40" y="645" font-family="Courier" font-size="12" fill="#4fc3f7">$ minipro -k</text>
+  <text x="40" y="665" font-family="Courier" font-size="12" fill="#d4d4d4">Found T48 00.1.03 (0x103)</text>
+  <text x="40" y="685" font-family="Courier" font-size="12" fill="#4caf50">✓ Command completed successfully</text>
+  
+  <!-- Progress bar (hidden state) -->
+  <rect x="40" y="715" width="1120" height="30" fill="#2d2d2d" rx="3" opacity="0.5"/>
+  <text x="50" y="735" font-family="Arial" font-size="12" fill="#888888">Ready</text>
+  
+  <!-- Placeholder text -->
+  <text x="600" y="400" font-family="Arial" font-size="24" fill="#888888" text-anchor="middle" font-style="italic">
+    [Replace with actual screenshot]
+  </text>
+  <text x="600" y="430" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">
+    main-window.png - Device Info Tab
+  </text>
+</svg>

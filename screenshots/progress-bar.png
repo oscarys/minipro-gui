@@ -1,0 +1,73 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#2d2d2d"/>
+  
+  <!-- Window frame -->
+  <rect x="10" y="10" width="1180" height="780" fill="#353535" rx="5"/>
+  
+  <!-- Title bar -->
+  <rect x="10" y="10" width="1180" height="40" fill="#454545" rx="5"/>
+  <text x="30" y="35" font-family="Arial" font-size="18" fill="#ffffff">T48 MiniPro Device Programmer</text>
+  
+  <!-- Tab bar -->
+  <rect x="20" y="60" width="150" height="35" fill="#555555" rx="3"/>
+  <text x="45" y="82" font-family="Arial" font-size="14" fill="#aaaaaa">Device Info</text>
+  
+  <rect x="180" y="60" width="150" height="35" fill="#2196F3" rx="3"/>
+  <text x="205" y="82" font-family="Arial" font-size="14" fill="#ffffff">Read/Write</text>
+  
+  <rect x="340" y="60" width="150" height="35" fill="#555555" rx="3"/>
+  <text x="370" y="82" font-family="Arial" font-size="14" fill="#aaaaaa">Firmware</text>
+  
+  <!-- Content area -->
+  <rect x="20" y="105" width="1160" height="480" fill="#2d2d2d" rx="3"/>
+  
+  <!-- Memory type box -->
+  <rect x="40" y="125" width="1120" height="60" fill="#404040" rx="3"/>
+  <text x="60" y="150" font-family="Arial" font-size="16" fill="#4fc3f7" font-weight="bold">Memory Type</text>
+  <text x="60" y="175" font-family="Arial" font-size="14" fill="#aaaaaa">Memory Type: [code ▼]</text>
+  
+  <!-- Write operations box -->
+  <rect x="40" y="200" width="1120" height="180" fill="#404040" rx="3"/>
+  <text x="60" y="225" font-family="Arial" font-size="16" fill="#4fc3f7" font-weight="bold">Write to Device</text>
+  <text x="60" y="255" font-family="Arial" font-size="14" fill="#aaaaaa">Input File: /home/user/firmware.bin [Browse...]</text>
+  <text x="60" y="285" font-family="Arial" font-size="14" fill="#aaaaaa">☐ Skip Erase  ☐ Skip Verify  ☐ No ID Error</text>
+  <rect x="60" y="305" width="140" height="40" fill="#2196F3" rx="5"/>
+  <text x="80" y="332" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold">Write to Device</text>
+  
+  <rect x="210" y="305" width="140" height="40" fill="#666666" rx="5"/>
+  <text x="240" y="332" font-family="Arial" font-size="14" fill="#ffffff">Verify Device</text>
+  
+  <rect x="360" y="305" width="140" height="40" fill="#f44336" rx="5"/>
+  <text x="385" y="332" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold">Erase Device</text>
+  
+  <!-- Console area with progress -->
+  <rect x="20" y="595" width="1160" height="185" fill="#1e1e1e" rx="3"/>
+  
+  <!-- Console header with debug mode -->
+  <rect x="40" y="600" width="1120" height="30" fill="#2d2d2d" rx="3"/>
+  <text x="50" y="620" font-family="Arial" font-size="12" fill="#ffffff">[Clear Console]  ☑ Debug Mode (show parsing)</text>
+  
+  <!-- Console output -->
+  <text x="40" y="650" font-family="Courier" font-size="12" fill="#4fc3f7">$ minipro -p "GAL16V8D" -w "firmware.jed"</text>
+  <text x="40" y="670" font-family="Courier" font-size="12" fill="#9c27b0">[PARSE] Writing jedec file... 75%</text>
+  <text x="40" y="690" font-family="Courier" font-size="12" fill="#9c27b0">[PROGRESS] Percentage found: 75% (operation: Writing)</text>
+  <text x="40" y="710" font-family="Courier" font-size="12" fill="#d4d4d4">Writing jedec file... 75%</text>
+  
+  <!-- Progress bar (active!) -->
+  <rect x="40" y="730" width="1120" height="35" fill="#404040" rx="3"/>
+  <text x="50" y="752" font-family="Arial" font-size="13" fill="#ffffff" font-weight="bold">Writing: 75%</text>
+  
+  <!-- Progress bar fill -->
+  <rect x="180" y="735" width="980" height="25" fill="#555555" rx="3"/>
+  <rect x="180" y="735" width="735" height="25" fill="#2196F3" rx="3"/>
+  <text x="670" y="752" font-family="Arial" font-size="12" fill="#ffffff">75%</text>
+  
+  <!-- Placeholder text -->
+  <text x="600" y="420" font-family="Arial" font-size="24" fill="#888888" text-anchor="middle" font-style="italic">
+    [Replace with actual screenshot]
+  </text>
+  <text x="600" y="450" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">
+    progress-bar.png - Real-time Progress with Debug Mode
+  </text>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#2d2d2d"/>
+  
+  <!-- Window section -->
+  <rect x="20" y="20" width="760" height="560" fill="#353535" rx="5"/>
+  
+  <!-- Title -->
+  <text x="40" y="60" font-family="Arial" font-size="20" fill="#ffffff" font-weight="bold">Device Selection - Searchable Dropdown</text>
+  
+  <!-- Info text -->
+  <rect x="40" y="80" width="720" height="50" fill="#1e3a5f" rx="5"/>
+  <text x="60" y="105" font-family="Arial" font-size="14" fill="#64b5f6" font-style="italic">💡 Common devices pre-loaded. Type to search or click 'Load Device List' for all 13,000+ devices</text>
+  
+  <!-- Dropdown field -->
+  <rect x="40" y="150" width="600" height="40" fill="#404040" rx="5" stroke="#2196F3" stroke-width="2"/>
+  <text x="60" y="177" font-family="Arial" font-size="16" fill="#ffffff">AT29</text>
+  <text x="610" y="177" font-family="Arial" font-size="20" fill="#aaaaaa">▼</text>
+  
+  <!-- Button -->
+  <rect x="650" y="150" width="110" height="40" fill="#2196F3" rx="5"/>
+  <text x="665" y="177" font-family="Arial" font-size="13" fill="#ffffff" font-weight="bold">Load Device List</text>
+  
+  <!-- Dropdown menu (expanded) -->
+  <rect x="40" y="200" width="600" height="350" fill="#404040" rx="5" stroke="#555555" stroke-width="1"/>
+  
+  <!-- Filtered results -->
+  <rect x="40" y="200" width="600" height="50" fill="#2196F3" rx="5"/>
+  <text x="60" y="230" font-family="Arial" font-size="15" fill="#ffffff">AT28C64@DIP28</text>
+  
+  <rect x="40" y="250" width="600" height="50" fill="#505050"/>
+  <text x="60" y="280" font-family="Arial" font-size="15" fill="#ffffff">AT28C256@DIP28</text>
+  
+  <rect x="40" y="300" width="600" height="50" fill="#454545"/>
+  <text x="60" y="330" font-family="Arial" font-size="15" fill="#ffffff">AT29C256@DIP28</text>
+  
+  <rect x="40" y="350" width="600" height="50" fill="#505050"/>
+  <text x="60" y="380" font-family="Arial" font-size="15" fill="#ffffff">AT29C512@DIP28</text>
+  
+  <rect x="40" y="400" width="600" height="50" fill="#454545"/>
+  <text x="60" y="430" font-family="Arial" font-size="15" fill="#ffffff">AT29C010@DIP32</text>
+  
+  <rect x="40" y="450" width="600" height="50" fill="#505050"/>
+  <text x="60" y="480" font-family="Arial" font-size="15" fill="#ffffff">AT29C020@DIP32</text>
+  
+  <rect x="40" y="500" width="600" height="50" fill="#454545"/>
+  <text x="60" y="530" font-family="Arial" font-size="15" fill="#ffffff">AT29C040@DIP32</text>
+  
+  <!-- Scrollbar indicator -->
+  <rect x="620" y="210" width="10" height="330" fill="#2d2d2d" rx="5"/>
+  <rect x="620" y="210" width="10" height="100" fill="#2196F3" rx="5"/>
+  
+  <!-- Info note -->
+  <text x="40" y="575" font-family="Arial" font-size="12" fill="#888888">Type to filter • Scroll for more • 40+ pre-loaded devices</text>
+  
+  <!-- Placeholder text -->
+  <text x="400" y="350" font-family="Arial" font-size="20" fill="#666666" text-anchor="middle" font-style="italic" opacity="0.5">
+    [Replace with actual screenshot]
+  </text>
+</svg>

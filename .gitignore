@@ -46,3 +46,8 @@ test_files/
 # OS
 Thumbs.db
 .directory
+
+# Allow screenshot images
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.gif
