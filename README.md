@@ -48,14 +48,16 @@ A modern PyQt6 frontend for the `minipro` command-line tool, providing an intuit
 *Device selection with searchable dropdown and programmer detection*
 
 ### Real-Time Progress
-![Progress Bar in Action](screenshots/progress-bar.png)
+![Progress Bar in Action](screenshots/read-write-tab.png)
 *Live progress updates with debug mode showing parsing details*
 
 ### Searchable Device Dropdown
 ![Device Dropdown with Filtering](screenshots/device-dropdown.png)
 *Type to filter through 13,000+ supported devices instantly*
 
-> **Note:** Screenshots show placeholder images. Replace with actual application screenshots by following the instructions in `screenshots/README.md`.
+### Device Configuration
+![Device Parameters](screenshots/configuration-tab.png)
+*Set operating parameters of the programmer*
 
 ## Core Features
 
@@ -530,7 +532,7 @@ The underlying `minipro` tool is:
 
 ## Credits
 
-**GUI Application:** Built with PyQt6 for the T48 programming community
+**GUI Application:** Built by Oscar Yanez with PyQt6 for the T48 programming community
 
 **Underlying Tool:** The `minipro` open-source project by David Griffith and contributors
 
