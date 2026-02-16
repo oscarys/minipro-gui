@@ -48,7 +48,7 @@ A modern PyQt6 frontend for the `minipro` command-line tool, providing an intuit
 *Device selection with searchable dropdown and programmer detection*
 
 ### Real-Time Progress
-![Progress Bar in Action](screenshots/progress-bar.png)
+![Progress Bar in Action](screenshots/read-write-tab.png)
 *Live progress updates with debug mode showing parsing details*
 
 ### Searchable Device Dropdown
