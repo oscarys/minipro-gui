@@ -2,6 +2,8 @@
 """
 T48 MiniPro Device Programmer GUI
 A PyQt6 frontend for the minipro command-line tool
+
+@author: Oscar Yanez-Suarez 2026
 """
 
 import sys
