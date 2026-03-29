@@ -1,8 +1,15 @@
 # T48 MiniPro Device Programmer GUI
 
+<img src="docs/uam_iztapalapa.png" alt="Universidad Autónoma Metropolitana, Unidad Iztapalapa" width="420"/>
+
 A modern PyQt6 frontend for the `minipro` command-line tool, providing an intuitive graphical interface for programming chips with the T48 device programmer.
 
 > **Important:** This is a GUI frontend for [minipro](https://gitlab.com/DavidGriffith/minipro), the open-source programmer software. You must have minipro installed for this GUI to work. Visit the [minipro GitLab repository](https://gitlab.com/DavidGriffith/minipro) for installation instructions.
+
+**Author:** 
+
+Oscar Yáñez Suárez — [Universidad Autónoma Metropolitana, Unidad Iztapalapa](https://www.izt.uam.mx)
+Departamento de Ingeniería Eléctrica
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.0%2B-green)
